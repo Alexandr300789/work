@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #3F313F;
+    padding: 20px 0;
+}
+
+.container_header {
+    display: flex;
+}
+
+.head__title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.head__h1,
+.head__text {
+    color: white;
+}
+
+.head_img {
+    border-radius: 100%;
+}
+
+/* OBJECT */
+
+.object {
+    margin: 0 20px 0;
+}
+
+.h2_object {
+    margin: 30px 0 20px;
+}
+
+.text_object {
+    padding: 10px 0;
+}
+
+/* experience */
+
+.experience {
+    margin: 0 20px 0;
+}
+
+.experience_h2 {
+    padding: 70px 0 30px;
+}
+
+.exp_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.exp_tabl_2 {
+    width: 80%;
+}
+
+/* skills */
+
+.skills {
+    margin: 0 20px 0;
+}
+
+.skills_h2 {
+    margin: 20px 0;
+}
+
+/* LANG */
+
+.lang {
+    margin: 0 20px 0;
+}
+
+.lang_h2 {
+    margin: 70px 0 20px;
+}
+
+.lang_list {
+    margin: 0 20px 70px;
+}
+
+/* FORM */
+
+.form {
+    background-color: #E5D6D3;
+}
+
+.form_h2 {
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.form_1_str {
+    display: flex;
+    justify-content: center;
+}
+
+.pole {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_2_str {
+    text-align: center;
+}
+
+.form_input {
+    background-color: #E5D6D3;
+    border: none;
+    border-bottom: solid 1.25px #795548;
+    width: 230px;
+    padding: 10px 0 0;
+}
+
+.form_textarea {
+    background-color: #E5D6D3;
+    border: none;
+    border-bottom: solid 1.25px #795548;
+    width: 460px;
+    resize: none;
+    padding: 10px 0 0;
+    margin: 0 0 30px;
+
+}
+
+.form_btn {
+    text-align: center;
+}
+
+.btn {
+    background: #3F323E;
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+/* CONTACTS */
+
+.contacts {
+    background: #3F323F;
+
+}
+
+.contacts_h2 {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.cont_list {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    ctext-decoration: underline;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #3F323F;
+}
+
+.text-footer {
+    text-align: center;
+    color: #968996;
+    padding: 40px 0 10px;
+}
